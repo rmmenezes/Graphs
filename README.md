@@ -1,36 +1,32 @@
-## Welcome to GitHub Pages
-You can use the [editor on GitHub](https://github.com/rmmenezes/Graphs/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Welcome to Project in NetworkX PYTHON
+NetworkX is a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Install
+Install the latest version of NetworkX::
 
-### Markdown
+    $ pip install networkx
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Install with all optional dependencies::
 
-```markdown
-Syntax highlighted code block
+    $ pip install networkx[all]
 
-# Header 1
-## Header 2
-### Header 3
+For additional details, please see `INSTALL.rst`.
 
-- Bulleted
-- List
+### Simple example
 
-1. Numbered
-2. List
+Find the shortest path between two nodes in an undirected graph::
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rmmenezes/Graphs/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+    >>> import networkx as nx
+    >>> G = nx.Graph()
+    >>> G.add_edge('A', 'B', weight=4)
+    >>> G.add_edge('B', 'D', weight=2)
+    >>> G.add_edge('A', 'C', weight=3)
+    >>> G.add_edge('C', 'D', weight=4)
+    >>> nx.shortest_path(G, 'A', 'D', weight='weight')
+    ['A', 'B', 'D']
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[contact support Networkx](https://networkx.github.io/)
+[Email Rafael](ra29fa@gmail.com)
+
