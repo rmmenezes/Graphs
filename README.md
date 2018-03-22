@@ -29,8 +29,8 @@ Find the shortest path between two nodes in an undirected graph::
 
 ### Support or Contact
 
-[contact support Networkx](https://networkx.github.io/)
+[Contact support Networkx](https://networkx.github.io/)
 
-[Profile GitHub rmmenezes](https://github.com/rmmenezes)
+[Profile GitHub Rafael Menezes Barboza](https://github.com/rmmenezes)
 
-[Profile GitHub rmmenezes](https://github.com/jonfel)
+[Profile GitHub Jonas Felipe Alves](https://github.com/jonfel)
