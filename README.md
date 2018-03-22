@@ -1,4 +1,6 @@
 ## Welcome to Project in NetworkX PYTHON
+This project is an activity carried out in the course of computer science in the field of graphs.
+
 NetworkX is a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks.
 
 ### Install
@@ -28,5 +30,7 @@ Find the shortest path between two nodes in an undirected graph::
 ### Support or Contact
 
 [contact support Networkx](https://networkx.github.io/)
-[Email Rafael](ra29fa@gmail.com)
 
+[Profile GitHub rmmenezes](https://github.com/rmmenezes)
+
+[Profile GitHub rmmenezes](https://github.com/jonfel)
